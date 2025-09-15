@@ -14,6 +14,7 @@ namespace Indice
         {
             FormInicio formPrincipal = new FormInicio();
             formPrincipal.ShowDialog();
+            Console.WriteLine("Aplicación finalizada.");
         }
     }
 }
