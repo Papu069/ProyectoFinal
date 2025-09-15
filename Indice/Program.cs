@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Indice.Clases;
+using Indice.Formularios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,8 @@ namespace Indice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("A trabajar Adolfooooo!!!");
+            FormInicio formPrincipal = new FormInicio();
+            formPrincipal.ShowDialog();
         }
     }
 }
