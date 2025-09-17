@@ -63,6 +63,16 @@ namespace Indice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cine_icono {
+            get {
+                object obj = ResourceManager.GetObject("Cine_icono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CineLentes {
             get {
                 object obj = ResourceManager.GetObject("CineLentes", resourceCulture);
@@ -113,6 +123,16 @@ namespace Indice.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NuevoUsuario {
+            get {
+                object obj = ResourceManager.GetObject("NuevoUsuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PelculaUno {
             get {
                 object obj = ResourceManager.GetObject("PelculaUno", resourceCulture);
@@ -136,6 +156,26 @@ namespace Indice.Properties {
         internal static System.Drawing.Bitmap PeliculaTres {
             get {
                 object obj = ResourceManager.GetObject("PeliculaTres", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Retroceso {
+            get {
+                object obj = ResourceManager.GetObject("Retroceso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Enigma {
+            get {
+                object obj = ResourceManager.GetObject("User_Enigma", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
