@@ -16,11 +16,30 @@ namespace Indice.Formularios
         public FormInicio()
         {
             InitializeComponent();
+            tabGeneral.TabPages.Clear();
+            tabGeneral.TabPages.Add(tabInicio);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void CambiarTab(TabPage tab)
+        {
+            tabGeneral.TabPages.Clear();
+            tabGeneral.TabPages.Add(tab);
+            tabGeneral.SelectedTab = tab;
+        }
+
+        private void btnVerPeliculas_Click(object sender, EventArgs e)
+        {
+            CambiarTab(tabInicio);
+        }
+
+        private void btnComprarEntrada_Click(object sender, EventArgs e)
+        {
+            CambiarTab(tabDatosPersonales);
         }
     }
 }

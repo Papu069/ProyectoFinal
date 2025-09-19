@@ -35,8 +35,11 @@ namespace Indice.Formularios
         {
             if (txtPass.Text == txtConfPass.Text)
             {
-                string[] datosUsuarios = { txtNuevoUsuario.Text, txtConfPass.Text };
-                using (StreamWriter datos = new StreamWriter(@"C:\\ProyectoFinalProgra3\\fase 2\\Usuarios.txt", true))
+                string rutaArchivo = Path.Combine(Application.StartupPath, "Usuarios.txt");
+
+                string[] datosUsuarios = { txtNuevoUsuario.Text, txtConfPass.Text, dtpFechaNacimiento.Text };
+
+                using (StreamWriter datos = new StreamWriter(rutaArchivo, true))
                 {
                     foreach (string guardar in datosUsuarios)
                     {

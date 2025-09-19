@@ -48,31 +48,36 @@ namespace Indice.Formularios
 
         private void btnIngrearIndice_Click(object sender, EventArgs e)
         {
-            FormInicio formInicio = new FormInicio();
-            formInicio.ShowDialog();
+            string rutaArchivo = Path.Combine(Application.StartupPath, "Usuarios.txt");
 
-            //string[] lineas = File.ReadAllLines(@"C:\\ProyectoFinalProgra3\\fase 2\\Usuarios.txt");
-            //bool acceso = false;
-            //for (int i = 0; i < lineas.Length; i += 2)
-            //{
-            //    string usuario = lineas[i];
-            //    string password = lineas[i + 1];
+            if (!File.Exists(rutaArchivo))
+            {
+                MessageBox.Show("No se encontró el archivo Usuarios.txt");
+                return;
+            }
 
-            //    if (txtUsuario.Text == usuario && txtPassword.Text == password)
-            //    {
-            //        acceso = true;
-            //        break;
-            //    }
-            //}
-            //if (acceso)
-            //{
-            //    FormInicio formInicio = new FormInicio();
-            //    formInicio.ShowDialog();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Usuario o contraseña incorrecta");
-            //}
+            string[] lineas = File.ReadAllLines(rutaArchivo);
+            bool acceso = false;
+            for (int i = 0; i < lineas.Length; i += 3)
+            {
+                string usuario = lineas[i];
+                string password = lineas[i + 1];
+
+                if (txtUsuario.Text == usuario && txtPassword.Text == password)
+                {
+                    acceso = true;
+                    break;
+                }
+            }
+            if (acceso)
+            {
+                FormInicio formInicio = new FormInicio();
+                formInicio.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrecta");
+            }
         }
 
         private void txtPassword_Enter(object sender, EventArgs e)
