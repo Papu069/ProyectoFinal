@@ -37,6 +37,11 @@ namespace Indice.Formularios
             {
                 string rutaArchivo = Path.Combine(Application.StartupPath, "Usuarios.txt");
 
+                if (!File.Exists(rutaArchivo))
+                {
+                    File.WriteAllText(rutaArchivo, "");
+                }
+
                 string[] datosUsuarios = { txtNuevoUsuario.Text, txtConfPass.Text, dtpFechaNacimiento.Text };
 
                 using (StreamWriter datos = new StreamWriter(rutaArchivo, true))

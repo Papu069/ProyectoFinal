@@ -52,8 +52,7 @@ namespace Indice.Formularios
 
             if (!File.Exists(rutaArchivo))
             {
-                MessageBox.Show("No se encontró el archivo Usuarios.txt");
-                return;
+                File.WriteAllText(rutaArchivo, "");
             }
 
             string[] lineas = File.ReadAllLines(rutaArchivo);
@@ -69,6 +68,8 @@ namespace Indice.Formularios
                     break;
                 }
             }
+            txtUsuario.Text = "";
+            txtPassword.Text = "";
             if (acceso)
             {
                 FormInicio formInicio = new FormInicio();
