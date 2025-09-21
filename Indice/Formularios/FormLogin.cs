@@ -73,7 +73,9 @@ namespace Indice.Formularios
             if (acceso)
             {
                 FormInicio formInicio = new FormInicio();
+                this.Hide();
                 formInicio.ShowDialog();
+                this.Show();
             }
             else
             {

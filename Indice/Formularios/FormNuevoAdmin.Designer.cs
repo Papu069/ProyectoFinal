@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
             this.ptrRetroceso = new System.Windows.Forms.PictureBox();
             this.btnConfirmarUsuario = new System.Windows.Forms.Button();
             this.txtConfPass = new System.Windows.Forms.TextBox();
@@ -38,8 +40,6 @@
             this.txtNuevoUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,8 +64,28 @@
             this.panel1.Size = new System.Drawing.Size(328, 409);
             this.panel1.TabIndex = 1;
             // 
+            // dtpFechaNacimiento
+            // 
+            this.dtpFechaNacimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(35, 258);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(257, 23);
+            this.dtpFechaNacimiento.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Window;
+            this.label4.Location = new System.Drawing.Point(31, 232);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(165, 20);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Fecha de nacimiento: ";
+            // 
             // ptrRetroceso
             // 
+            this.ptrRetroceso.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptrRetroceso.Image = global::Indice.Properties.Resources.Retroceso;
             this.ptrRetroceso.Location = new System.Drawing.Point(35, 332);
             this.ptrRetroceso.Name = "ptrRetroceso";
@@ -162,25 +182,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Window;
-            this.label4.Location = new System.Drawing.Point(31, 232);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(165, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Fecha de nacimiento: ";
-            // 
-            // dtpFechaNacimiento
-            // 
-            this.dtpFechaNacimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFechaNacimiento.Location = new System.Drawing.Point(35, 258);
-            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(257, 23);
-            this.dtpFechaNacimiento.TabIndex = 9;
             // 
             // FormNuevoAdmin
             // 
