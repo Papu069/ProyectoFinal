@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.ptrNuevoAdmin = new System.Windows.Forms.PictureBox();
             this.ptrExit = new System.Windows.Forms.PictureBox();
@@ -36,7 +37,7 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnIngrearIndice = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkHelp = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptrNuevoAdmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptrExit)).BeginInit();
@@ -143,16 +144,17 @@
             this.btnIngrearIndice.UseVisualStyleBackColor = false;
             this.btnIngrearIndice.Click += new System.EventHandler(this.btnIngrearIndice_Click);
             // 
-            // linkLabel1
+            // linkHelp
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Olive;
-            this.linkLabel1.Location = new System.Drawing.Point(369, 302);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(133, 13);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "He olvidado mi contraseña";
+            this.linkHelp.AutoSize = true;
+            this.linkHelp.LinkColor = System.Drawing.Color.Olive;
+            this.linkHelp.Location = new System.Drawing.Point(369, 302);
+            this.linkHelp.Name = "linkHelp";
+            this.linkHelp.Size = new System.Drawing.Size(133, 13);
+            this.linkHelp.TabIndex = 1;
+            this.linkHelp.TabStop = true;
+            this.linkHelp.Text = "He olvidado mi contraseña";
+            this.linkHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkHelp_LinkClicked);
             // 
             // FormLogin
             // 
@@ -160,13 +162,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowText;
             this.ClientSize = new System.Drawing.Size(669, 341);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.linkHelp);
             this.Controls.Add(this.btnIngrearIndice);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -190,6 +193,6 @@
         private System.Windows.Forms.Button btnIngrearIndice;
         private System.Windows.Forms.PictureBox ptrExit;
         private System.Windows.Forms.PictureBox ptrNuevoAdmin;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkHelp;
     }
 }

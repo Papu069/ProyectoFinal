@@ -107,5 +107,11 @@ namespace Indice.Formularios
             formNuevoAdmin.ShowDialog();
             this.Show();
         }
+
+        private void linkHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("Contáctate con el administrador del sistema para recuperar su usuario o contraseña." +
+                " Tél: 75147665");
+        }
     }
 }

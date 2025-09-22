@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPelicula));
             this.lblNamePelicula = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblFechaEstreno = new System.Windows.Forms.Label();
@@ -158,6 +159,7 @@
             this.Controls.Add(this.lblDescripcion);
             this.Controls.Add(this.lblNamePelicula);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormPelicula";
             this.Text = "FormPelicula";
             this.Load += new System.EventHandler(this.FormPelicula_Load);

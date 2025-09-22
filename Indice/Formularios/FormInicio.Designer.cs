@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInicio));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnDomingo = new System.Windows.Forms.Button();
             this.btnSabado = new System.Windows.Forms.Button();
@@ -48,7 +49,9 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.ImgMovie3 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.ImgMovie2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.ImgMovie1 = new System.Windows.Forms.PictureBox();
             this.tabDatosPersonales = new System.Windows.Forms.TabPage();
@@ -80,47 +83,45 @@
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel32 = new System.Windows.Forms.Panel();
             this.tabLunes = new System.Windows.Forms.TabPage();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.ImgMovie01 = new System.Windows.Forms.PictureBox();
             this.tabMartes = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnHome = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.ImgMovie2 = new System.Windows.Forms.PictureBox();
-            this.ImgMovie3 = new System.Windows.Forms.PictureBox();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.ImgMovie02 = new System.Windows.Forms.PictureBox();
             this.tabMiercoles = new System.Windows.Forms.TabPage();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.ImgMovie03 = new System.Windows.Forms.PictureBox();
             this.tabJueves = new System.Windows.Forms.TabPage();
             this.tabViernes = new System.Windows.Forms.TabPage();
             this.tabSabado = new System.Windows.Forms.TabPage();
             this.tabDomingo = new System.Windows.Forms.TabPage();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.ImgMovie01 = new System.Windows.Forms.PictureBox();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.ImgMovie02 = new System.Windows.Forms.PictureBox();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.ImgMovie03 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnHome = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabGeneral.SuspendLayout();
             this.tabInicio.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie3)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgMovie1)).BeginInit();
             this.tabDatosPersonales.SuspendLayout();
             this.tabInicio2.SuspendLayout();
             this.tabInicio3.SuspendLayout();
             this.tabLunes.SuspendLayout();
-            this.tabMartes.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie3)).BeginInit();
-            this.tabMiercoles.SuspendLayout();
             this.panel33.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgMovie01)).BeginInit();
+            this.tabMartes.SuspendLayout();
             this.panel34.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgMovie02)).BeginInit();
+            this.tabMiercoles.SuspendLayout();
             this.panel35.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgMovie03)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -378,6 +379,18 @@
             this.panel5.Size = new System.Drawing.Size(148, 178);
             this.panel5.TabIndex = 2;
             // 
+            // ImgMovie3
+            // 
+            this.ImgMovie3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMovie3.Image = global::Indice.Properties.Resources.PeliculaTres;
+            this.ImgMovie3.Location = new System.Drawing.Point(3, 3);
+            this.ImgMovie3.Name = "ImgMovie3";
+            this.ImgMovie3.Size = new System.Drawing.Size(142, 172);
+            this.ImgMovie3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImgMovie3.TabIndex = 2;
+            this.ImgMovie3.TabStop = false;
+            this.ImgMovie3.Click += new System.EventHandler(this.ImgMovie3_Click);
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Gold;
@@ -386,6 +399,18 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(148, 178);
             this.panel4.TabIndex = 1;
+            // 
+            // ImgMovie2
+            // 
+            this.ImgMovie2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMovie2.Image = global::Indice.Properties.Resources.PeliculaDos;
+            this.ImgMovie2.Location = new System.Drawing.Point(3, 3);
+            this.ImgMovie2.Name = "ImgMovie2";
+            this.ImgMovie2.Size = new System.Drawing.Size(142, 172);
+            this.ImgMovie2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImgMovie2.TabIndex = 1;
+            this.ImgMovie2.TabStop = false;
+            this.ImgMovie2.Click += new System.EventHandler(this.ImgMovie2_Click);
             // 
             // panel3
             // 
@@ -412,10 +437,10 @@
             // 
             this.tabDatosPersonales.BackColor = System.Drawing.SystemColors.WindowText;
             this.tabDatosPersonales.Controls.Add(this.label2);
-            this.tabDatosPersonales.Location = new System.Drawing.Point(4, 29);
+            this.tabDatosPersonales.Location = new System.Drawing.Point(4, 22);
             this.tabDatosPersonales.Name = "tabDatosPersonales";
             this.tabDatosPersonales.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDatosPersonales.Size = new System.Drawing.Size(977, 414);
+            this.tabDatosPersonales.Size = new System.Drawing.Size(977, 424);
             this.tabDatosPersonales.TabIndex = 1;
             this.tabDatosPersonales.Text = "Datos Personales";
             // 
@@ -432,10 +457,10 @@
             // 
             // tabAsientos
             // 
-            this.tabAsientos.Location = new System.Drawing.Point(4, 29);
+            this.tabAsientos.Location = new System.Drawing.Point(4, 22);
             this.tabAsientos.Name = "tabAsientos";
             this.tabAsientos.Padding = new System.Windows.Forms.Padding(3);
-            this.tabAsientos.Size = new System.Drawing.Size(977, 414);
+            this.tabAsientos.Size = new System.Drawing.Size(977, 424);
             this.tabAsientos.TabIndex = 2;
             this.tabAsientos.Text = "Asientos";
             this.tabAsientos.UseVisualStyleBackColor = true;
@@ -455,10 +480,10 @@
             this.tabInicio2.Controls.Add(this.panel20);
             this.tabInicio2.Controls.Add(this.panel21);
             this.tabInicio2.Controls.Add(this.panel22);
-            this.tabInicio2.Location = new System.Drawing.Point(4, 29);
+            this.tabInicio2.Location = new System.Drawing.Point(4, 22);
             this.tabInicio2.Name = "tabInicio2";
             this.tabInicio2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInicio2.Size = new System.Drawing.Size(977, 414);
+            this.tabInicio2.Size = new System.Drawing.Size(977, 424);
             this.tabInicio2.TabIndex = 3;
             this.tabInicio2.Text = "Lo más destacado";
             // 
@@ -588,10 +613,10 @@
             this.tabInicio3.Controls.Add(this.panel30);
             this.tabInicio3.Controls.Add(this.panel31);
             this.tabInicio3.Controls.Add(this.panel32);
-            this.tabInicio3.Location = new System.Drawing.Point(4, 29);
+            this.tabInicio3.Location = new System.Drawing.Point(4, 22);
             this.tabInicio3.Name = "tabInicio3";
             this.tabInicio3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInicio3.Size = new System.Drawing.Size(977, 414);
+            this.tabInicio3.Size = new System.Drawing.Size(977, 424);
             this.tabInicio3.TabIndex = 4;
             this.tabInicio3.Text = "Lo más destacado";
             // 
@@ -695,23 +720,137 @@
             // 
             this.tabLunes.BackColor = System.Drawing.SystemColors.WindowText;
             this.tabLunes.Controls.Add(this.panel33);
-            this.tabLunes.Location = new System.Drawing.Point(4, 29);
+            this.tabLunes.Location = new System.Drawing.Point(4, 22);
             this.tabLunes.Name = "tabLunes";
             this.tabLunes.Padding = new System.Windows.Forms.Padding(3);
-            this.tabLunes.Size = new System.Drawing.Size(977, 414);
+            this.tabLunes.Size = new System.Drawing.Size(977, 424);
             this.tabLunes.TabIndex = 5;
             this.tabLunes.Text = "Lunes";
+            // 
+            // panel33
+            // 
+            this.panel33.BackColor = System.Drawing.Color.Gold;
+            this.panel33.Controls.Add(this.ImgMovie01);
+            this.panel33.Location = new System.Drawing.Point(50, 107);
+            this.panel33.Name = "panel33";
+            this.panel33.Size = new System.Drawing.Size(148, 178);
+            this.panel33.TabIndex = 1;
+            // 
+            // ImgMovie01
+            // 
+            this.ImgMovie01.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMovie01.Image = global::Indice.Properties.Resources.PelculaUno;
+            this.ImgMovie01.Location = new System.Drawing.Point(3, 3);
+            this.ImgMovie01.Name = "ImgMovie01";
+            this.ImgMovie01.Size = new System.Drawing.Size(142, 172);
+            this.ImgMovie01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImgMovie01.TabIndex = 0;
+            this.ImgMovie01.TabStop = false;
+            this.ImgMovie01.Click += new System.EventHandler(this.Img_Click);
             // 
             // tabMartes
             // 
             this.tabMartes.BackColor = System.Drawing.SystemColors.WindowText;
             this.tabMartes.Controls.Add(this.panel34);
-            this.tabMartes.Location = new System.Drawing.Point(4, 29);
+            this.tabMartes.Location = new System.Drawing.Point(4, 22);
             this.tabMartes.Name = "tabMartes";
             this.tabMartes.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMartes.Size = new System.Drawing.Size(977, 414);
+            this.tabMartes.Size = new System.Drawing.Size(977, 424);
             this.tabMartes.TabIndex = 6;
             this.tabMartes.Text = "Martes";
+            // 
+            // panel34
+            // 
+            this.panel34.BackColor = System.Drawing.Color.Gold;
+            this.panel34.Controls.Add(this.ImgMovie02);
+            this.panel34.Location = new System.Drawing.Point(68, 124);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(148, 178);
+            this.panel34.TabIndex = 2;
+            // 
+            // ImgMovie02
+            // 
+            this.ImgMovie02.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMovie02.Image = global::Indice.Properties.Resources.PeliculaDos;
+            this.ImgMovie02.Location = new System.Drawing.Point(3, 3);
+            this.ImgMovie02.Name = "ImgMovie02";
+            this.ImgMovie02.Size = new System.Drawing.Size(142, 172);
+            this.ImgMovie02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImgMovie02.TabIndex = 1;
+            this.ImgMovie02.TabStop = false;
+            this.ImgMovie02.Click += new System.EventHandler(this.ImgMovie2_Click);
+            // 
+            // tabMiercoles
+            // 
+            this.tabMiercoles.BackColor = System.Drawing.SystemColors.WindowText;
+            this.tabMiercoles.Controls.Add(this.panel35);
+            this.tabMiercoles.Location = new System.Drawing.Point(4, 22);
+            this.tabMiercoles.Name = "tabMiercoles";
+            this.tabMiercoles.Padding = new System.Windows.Forms.Padding(3);
+            this.tabMiercoles.Size = new System.Drawing.Size(977, 424);
+            this.tabMiercoles.TabIndex = 7;
+            this.tabMiercoles.Text = "Miercoles";
+            // 
+            // panel35
+            // 
+            this.panel35.BackColor = System.Drawing.Color.Gold;
+            this.panel35.Controls.Add(this.ImgMovie03);
+            this.panel35.Location = new System.Drawing.Point(86, 124);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(148, 178);
+            this.panel35.TabIndex = 3;
+            // 
+            // ImgMovie03
+            // 
+            this.ImgMovie03.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMovie03.Image = global::Indice.Properties.Resources.PeliculaTres;
+            this.ImgMovie03.Location = new System.Drawing.Point(3, 3);
+            this.ImgMovie03.Name = "ImgMovie03";
+            this.ImgMovie03.Size = new System.Drawing.Size(142, 172);
+            this.ImgMovie03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ImgMovie03.TabIndex = 2;
+            this.ImgMovie03.TabStop = false;
+            this.ImgMovie03.Click += new System.EventHandler(this.ImgMovie3_Click);
+            // 
+            // tabJueves
+            // 
+            this.tabJueves.BackColor = System.Drawing.SystemColors.WindowText;
+            this.tabJueves.Location = new System.Drawing.Point(4, 22);
+            this.tabJueves.Name = "tabJueves";
+            this.tabJueves.Padding = new System.Windows.Forms.Padding(3);
+            this.tabJueves.Size = new System.Drawing.Size(977, 424);
+            this.tabJueves.TabIndex = 8;
+            this.tabJueves.Text = "Jueves";
+            // 
+            // tabViernes
+            // 
+            this.tabViernes.BackColor = System.Drawing.SystemColors.WindowText;
+            this.tabViernes.Location = new System.Drawing.Point(4, 22);
+            this.tabViernes.Name = "tabViernes";
+            this.tabViernes.Padding = new System.Windows.Forms.Padding(3);
+            this.tabViernes.Size = new System.Drawing.Size(977, 424);
+            this.tabViernes.TabIndex = 9;
+            this.tabViernes.Text = "Viernes";
+            // 
+            // tabSabado
+            // 
+            this.tabSabado.BackColor = System.Drawing.SystemColors.WindowText;
+            this.tabSabado.Location = new System.Drawing.Point(4, 22);
+            this.tabSabado.Name = "tabSabado";
+            this.tabSabado.Padding = new System.Windows.Forms.Padding(3);
+            this.tabSabado.Size = new System.Drawing.Size(977, 424);
+            this.tabSabado.TabIndex = 10;
+            this.tabSabado.Text = "Sábado";
+            // 
+            // tabDomingo
+            // 
+            this.tabDomingo.BackColor = System.Drawing.SystemColors.WindowText;
+            this.tabDomingo.Location = new System.Drawing.Point(4, 22);
+            this.tabDomingo.Name = "tabDomingo";
+            this.tabDomingo.Padding = new System.Windows.Forms.Padding(3);
+            this.tabDomingo.Size = new System.Drawing.Size(977, 424);
+            this.tabDomingo.TabIndex = 11;
+            this.tabDomingo.Text = "Domingo";
             // 
             // panel2
             // 
@@ -765,144 +904,6 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // ImgMovie2
-            // 
-            this.ImgMovie2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgMovie2.Image = global::Indice.Properties.Resources.PeliculaDos;
-            this.ImgMovie2.Location = new System.Drawing.Point(3, 3);
-            this.ImgMovie2.Name = "ImgMovie2";
-            this.ImgMovie2.Size = new System.Drawing.Size(142, 172);
-            this.ImgMovie2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ImgMovie2.TabIndex = 1;
-            this.ImgMovie2.TabStop = false;
-            this.ImgMovie2.Click += new System.EventHandler(this.ImgMovie2_Click);
-            // 
-            // ImgMovie3
-            // 
-            this.ImgMovie3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgMovie3.Image = global::Indice.Properties.Resources.PeliculaTres;
-            this.ImgMovie3.Location = new System.Drawing.Point(3, 3);
-            this.ImgMovie3.Name = "ImgMovie3";
-            this.ImgMovie3.Size = new System.Drawing.Size(142, 172);
-            this.ImgMovie3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ImgMovie3.TabIndex = 2;
-            this.ImgMovie3.TabStop = false;
-            this.ImgMovie3.Click += new System.EventHandler(this.ImgMovie3_Click);
-            // 
-            // tabMiercoles
-            // 
-            this.tabMiercoles.BackColor = System.Drawing.SystemColors.WindowText;
-            this.tabMiercoles.Controls.Add(this.panel35);
-            this.tabMiercoles.Location = new System.Drawing.Point(4, 29);
-            this.tabMiercoles.Name = "tabMiercoles";
-            this.tabMiercoles.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMiercoles.Size = new System.Drawing.Size(977, 414);
-            this.tabMiercoles.TabIndex = 7;
-            this.tabMiercoles.Text = "Miercoles";
-            // 
-            // tabJueves
-            // 
-            this.tabJueves.BackColor = System.Drawing.SystemColors.WindowText;
-            this.tabJueves.Location = new System.Drawing.Point(4, 29);
-            this.tabJueves.Name = "tabJueves";
-            this.tabJueves.Padding = new System.Windows.Forms.Padding(3);
-            this.tabJueves.Size = new System.Drawing.Size(977, 414);
-            this.tabJueves.TabIndex = 8;
-            this.tabJueves.Text = "Jueves";
-            // 
-            // tabViernes
-            // 
-            this.tabViernes.BackColor = System.Drawing.SystemColors.WindowText;
-            this.tabViernes.Location = new System.Drawing.Point(4, 29);
-            this.tabViernes.Name = "tabViernes";
-            this.tabViernes.Padding = new System.Windows.Forms.Padding(3);
-            this.tabViernes.Size = new System.Drawing.Size(977, 414);
-            this.tabViernes.TabIndex = 9;
-            this.tabViernes.Text = "Viernes";
-            // 
-            // tabSabado
-            // 
-            this.tabSabado.BackColor = System.Drawing.SystemColors.WindowText;
-            this.tabSabado.Location = new System.Drawing.Point(4, 29);
-            this.tabSabado.Name = "tabSabado";
-            this.tabSabado.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSabado.Size = new System.Drawing.Size(977, 414);
-            this.tabSabado.TabIndex = 10;
-            this.tabSabado.Text = "Sábado";
-            // 
-            // tabDomingo
-            // 
-            this.tabDomingo.BackColor = System.Drawing.SystemColors.WindowText;
-            this.tabDomingo.Location = new System.Drawing.Point(4, 29);
-            this.tabDomingo.Name = "tabDomingo";
-            this.tabDomingo.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDomingo.Size = new System.Drawing.Size(977, 414);
-            this.tabDomingo.TabIndex = 11;
-            this.tabDomingo.Text = "Domingo";
-            // 
-            // panel33
-            // 
-            this.panel33.BackColor = System.Drawing.Color.Gold;
-            this.panel33.Controls.Add(this.ImgMovie01);
-            this.panel33.Location = new System.Drawing.Point(50, 107);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(148, 178);
-            this.panel33.TabIndex = 1;
-            // 
-            // ImgMovie01
-            // 
-            this.ImgMovie01.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgMovie01.Image = global::Indice.Properties.Resources.PelculaUno;
-            this.ImgMovie01.Location = new System.Drawing.Point(3, 3);
-            this.ImgMovie01.Name = "ImgMovie01";
-            this.ImgMovie01.Size = new System.Drawing.Size(142, 172);
-            this.ImgMovie01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ImgMovie01.TabIndex = 0;
-            this.ImgMovie01.TabStop = false;
-            this.ImgMovie01.Click += new System.EventHandler(this.Img_Click);
-            // 
-            // panel34
-            // 
-            this.panel34.BackColor = System.Drawing.Color.Gold;
-            this.panel34.Controls.Add(this.ImgMovie02);
-            this.panel34.Location = new System.Drawing.Point(68, 124);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(148, 178);
-            this.panel34.TabIndex = 2;
-            // 
-            // ImgMovie02
-            // 
-            this.ImgMovie02.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgMovie02.Image = global::Indice.Properties.Resources.PeliculaDos;
-            this.ImgMovie02.Location = new System.Drawing.Point(3, 3);
-            this.ImgMovie02.Name = "ImgMovie02";
-            this.ImgMovie02.Size = new System.Drawing.Size(142, 172);
-            this.ImgMovie02.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ImgMovie02.TabIndex = 1;
-            this.ImgMovie02.TabStop = false;
-            this.ImgMovie02.Click += new System.EventHandler(this.ImgMovie2_Click);
-            // 
-            // panel35
-            // 
-            this.panel35.BackColor = System.Drawing.Color.Gold;
-            this.panel35.Controls.Add(this.ImgMovie03);
-            this.panel35.Location = new System.Drawing.Point(86, 124);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(148, 178);
-            this.panel35.TabIndex = 3;
-            // 
-            // ImgMovie03
-            // 
-            this.ImgMovie03.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgMovie03.Image = global::Indice.Properties.Resources.PeliculaTres;
-            this.ImgMovie03.Location = new System.Drawing.Point(3, 3);
-            this.ImgMovie03.Name = "ImgMovie03";
-            this.ImgMovie03.Size = new System.Drawing.Size(142, 172);
-            this.ImgMovie03.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ImgMovie03.TabIndex = 2;
-            this.ImgMovie03.TabStop = false;
-            this.ImgMovie03.Click += new System.EventHandler(this.ImgMovie3_Click);
-            // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -916,6 +917,7 @@
             this.Controls.Add(this.tabGeneral);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
@@ -923,7 +925,9 @@
             this.tabGeneral.ResumeLayout(false);
             this.tabInicio.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie3)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie2)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ImgMovie1)).EndInit();
             this.tabDatosPersonales.ResumeLayout(false);
@@ -931,19 +935,17 @@
             this.tabInicio2.ResumeLayout(false);
             this.tabInicio3.ResumeLayout(false);
             this.tabLunes.ResumeLayout(false);
+            this.panel33.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie01)).EndInit();
             this.tabMartes.ResumeLayout(false);
+            this.panel34.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie02)).EndInit();
+            this.tabMiercoles.ResumeLayout(false);
+            this.panel35.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie03)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie3)).EndInit();
-            this.tabMiercoles.ResumeLayout(false);
-            this.panel33.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie01)).EndInit();
-            this.panel34.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie02)).EndInit();
-            this.panel35.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMovie03)).EndInit();
             this.ResumeLayout(false);
 
         }
