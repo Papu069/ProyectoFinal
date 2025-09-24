@@ -35,7 +35,7 @@
             this.lblCostoEntrada = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnComprar = new System.Windows.Forms.Button();
             this.ptrRetroceso2 = new System.Windows.Forms.PictureBox();
             this.lblGenero = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -108,18 +108,19 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnComprar
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(373, 435);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 56);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Comprar entrada";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnComprar.BackColor = System.Drawing.Color.Gold;
+            this.btnComprar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnComprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComprar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComprar.Location = new System.Drawing.Point(373, 435);
+            this.btnComprar.Name = "btnComprar";
+            this.btnComprar.Size = new System.Drawing.Size(98, 56);
+            this.btnComprar.TabIndex = 6;
+            this.btnComprar.Text = "Comprar entrada";
+            this.btnComprar.UseVisualStyleBackColor = false;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             // 
             // ptrRetroceso2
             // 
@@ -152,7 +153,7 @@
             this.ClientSize = new System.Drawing.Size(494, 518);
             this.Controls.Add(this.lblGenero);
             this.Controls.Add(this.ptrRetroceso2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnComprar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblCostoEntrada);
             this.Controls.Add(this.lblFechaEstreno);
@@ -178,7 +179,7 @@
         private System.Windows.Forms.Label lblFechaEstreno;
         private System.Windows.Forms.Label lblCostoEntrada;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnComprar;
         private System.Windows.Forms.PictureBox ptrRetroceso2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblGenero;

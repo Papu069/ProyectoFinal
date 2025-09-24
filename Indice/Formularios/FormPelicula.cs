@@ -14,18 +14,17 @@ namespace Indice.Formularios
     public partial class FormPelicula : Form
     {
         private Pelicula _pelicula;
-        public FormPelicula(Pelicula pelicula)
+        private Sala _sala;
+        public FormPelicula(Pelicula pelicula, Sala sala)
         {
             InitializeComponent();
             _pelicula = pelicula;
+            _sala = pelicula.Salas[0];
         }
 
         private void ptrRetroceso2_Click(object sender, EventArgs e)
         {
-            FormInicio formInicio = new FormInicio();
-            this.Hide();
-            formInicio.ShowDialog();
-            this.Show();
+            this.Close();
         }
 
         private void FormPelicula_Load(object sender, EventArgs e)
@@ -35,6 +34,14 @@ namespace Indice.Formularios
             lblDescripcion.Text = _pelicula.Descripcion;
             lblFechaEstreno.Text = _pelicula.FechaEstreno.ToShortDateString();
             lblCostoEntrada.Text = $"P/U: Bs. {_pelicula.CostoEntrada}";
+        }
+
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+            FormAsiento formAsiento = new FormAsiento(_pelicula, _sala);
+            this.Hide();
+            formAsiento.ShowDialog();
+            this.Show();
         }
     }
 }

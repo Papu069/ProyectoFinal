@@ -53,6 +53,18 @@
     <Compile Include="Clases\Reserva.cs" />
     <Compile Include="Clases\Sala.cs" />
     <Compile Include="Clases\Usuario.cs" />
+    <Compile Include="Formularios\FormAsiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormAsiento.Designer.cs">
+      <DependentUpon>FormAsiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormBoleto.Designer.cs">
+      <DependentUpon>FormBoleto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +82,12 @@
     </Compile>
     <Compile Include="Formularios\FormNuevoAdmin.Designer.cs">
       <DependentUpon>FormNuevoAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormPago.Designer.cs">
+      <DependentUpon>FormPago.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormPelicula.cs">
       <SubType>Form</SubType>
@@ -89,6 +107,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularios\FormAsiento.resx">
+      <DependentUpon>FormAsiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormBoleto.resx">
+      <DependentUpon>FormBoleto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormInicio.resx">
       <DependentUpon>FormInicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormNuevoAdmin.resx">
       <DependentUpon>FormNuevoAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormPago.resx">
+      <DependentUpon>FormPago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormPelicula.resx">
       <DependentUpon>FormPelicula.cs</DependentUpon>
