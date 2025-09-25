@@ -8,7 +8,6 @@ namespace Indice.Clases
 {
     public class Boleto
     {
-        public int ID { get; set; }
         public Pelicula Pelicula { get; set; }
         public Sala Sala { get; set; }
         public DateTime FechaDEPelicula { get; set; }
@@ -16,7 +15,6 @@ namespace Indice.Clases
 
         public Boleto()
         {
-            this.ID = 000;
             this.Pelicula = new Pelicula();
             this.Sala = new Sala();
             this.FechaDEPelicula = new DateTime();

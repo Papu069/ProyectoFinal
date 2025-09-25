@@ -37,14 +37,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnCancelarCompra = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPagar
@@ -148,29 +148,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
             // 
-            // groupBox2
+            // btnCancelarCompra
             // 
-            this.groupBox2.Controls.Add(this.txtNombre);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.Info;
-            this.groupBox2.Location = new System.Drawing.Point(16, 25);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(180, 51);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Nombre";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.txtCI);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.ForeColor = System.Drawing.SystemColors.Info;
-            this.groupBox3.Location = new System.Drawing.Point(223, 25);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(180, 51);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "CI";
+            this.btnCancelarCompra.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.btnCancelarCompra.Location = new System.Drawing.Point(16, 315);
+            this.btnCancelarCompra.Name = "btnCancelarCompra";
+            this.btnCancelarCompra.Size = new System.Drawing.Size(112, 50);
+            this.btnCancelarCompra.TabIndex = 11;
+            this.btnCancelarCompra.Text = "Cancelar";
+            this.btnCancelarCompra.UseVisualStyleBackColor = true;
+            this.btnCancelarCompra.Click += new System.EventHandler(this.btnCancelarCompra_Click);
             // 
             // groupBox4
             // 
@@ -184,16 +171,29 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Teléfono";
             // 
-            // btnCancelarCompra
+            // groupBox3
             // 
-            this.btnCancelarCompra.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.btnCancelarCompra.Location = new System.Drawing.Point(16, 315);
-            this.btnCancelarCompra.Name = "btnCancelarCompra";
-            this.btnCancelarCompra.Size = new System.Drawing.Size(112, 50);
-            this.btnCancelarCompra.TabIndex = 11;
-            this.btnCancelarCompra.Text = "Cancelar";
-            this.btnCancelarCompra.UseVisualStyleBackColor = true;
-            this.btnCancelarCompra.Click += new System.EventHandler(this.btnCancelarCompra_Click);
+            this.groupBox3.Controls.Add(this.txtCI);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.Info;
+            this.groupBox3.Location = new System.Drawing.Point(223, 25);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(180, 51);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "CI";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtNombre);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.Info;
+            this.groupBox2.Location = new System.Drawing.Point(16, 25);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(180, 51);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Nombre";
             // 
             // FormPago
             // 
@@ -204,16 +204,17 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPago";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPago";
             this.Load += new System.EventHandler(this.FormPago_Load_1);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }

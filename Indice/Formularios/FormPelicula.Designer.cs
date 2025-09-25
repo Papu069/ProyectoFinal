@@ -125,10 +125,10 @@
             // ptrRetroceso2
             // 
             this.ptrRetroceso2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ptrRetroceso2.Image = global::Indice.Properties.Resources.Retroceso;
-            this.ptrRetroceso2.Location = new System.Drawing.Point(33, 435);
+            this.ptrRetroceso2.Image = global::Indice.Properties.Resources.Flecha_left;
+            this.ptrRetroceso2.Location = new System.Drawing.Point(33, 425);
             this.ptrRetroceso2.Name = "ptrRetroceso2";
-            this.ptrRetroceso2.Size = new System.Drawing.Size(57, 56);
+            this.ptrRetroceso2.Size = new System.Drawing.Size(59, 66);
             this.ptrRetroceso2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptrRetroceso2.TabIndex = 8;
             this.ptrRetroceso2.TabStop = false;
@@ -162,6 +162,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormPelicula";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPelicula";
             this.Load += new System.EventHandler(this.FormPelicula_Load);
             this.panel1.ResumeLayout(false);

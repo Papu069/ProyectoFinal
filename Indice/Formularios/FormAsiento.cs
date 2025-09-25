@@ -33,9 +33,8 @@ namespace Indice.Formularios
 
         private void GenerarAsientos()
         {
-            int filas = 6;
-            int columnas = 8;
-            int tam = 60;
+            int filas = 7;
+            int columnas = 9;
 
             panelAsientos.Controls.Clear();
 
@@ -64,9 +63,10 @@ namespace Indice.Formularios
                 int c = asiento.Numero - 1;
 
                 Button btn = new Button();
-                btn.Width = btn.Height = tam;
-                btn.Left = c * (tam + 5);
-                btn.Top = f * (tam + 5);
+                btn.Width = 60;
+                btn.Height = 40;
+                btn.Left = c * (60 + 5);
+                btn.Top = f * (60 + 5);
                 btn.Text = $"{asiento.Fila}-{asiento.Numero}";
                 btn.Tag = asiento;
 

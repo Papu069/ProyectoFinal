@@ -33,15 +33,15 @@ namespace Indice.Formularios
         {
             double total = _asientosSeleccionados.Sum(a => a.Precio);
 
-            lblUsuario.Text = $"Usuario: {_usuario.Nombre} (CI: {_usuario.CI}, Tel: {_usuario.Telefono})";
-            lblPelicula.Text = $"Película: {_pelicula.NombreDEPelicula}";
-            lblSala.Text = $"Sala: {_sala.NumDESala}";
-            lblFecha.Text = $"Fecha: {DateTime.Now}";
+            lblUsuario.Text = $"{_usuario.Nombre} (CI: {_usuario.CI}, Tel: {_usuario.Telefono})";
+            lblPelicula.Text = $"{_pelicula.NombreDEPelicula}";
+            lblSala.Text = $"{_sala.NumDESala}";
+            lblFecha.Text = $"{DateTime.Now}";
             lblAsientos.Text = "Asientos: " + string.Join(", ", _asientosSeleccionados.Select(a => $"{a.Fila}-{a.Numero}"));
             lblTotal.Text = $"Total Pagado: Bs. {total}";
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
+        private void ptrInicio_Click(object sender, EventArgs e)
         {
             _formInicio.Show();
             this.Close();
