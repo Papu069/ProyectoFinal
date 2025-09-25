@@ -52,10 +52,8 @@ namespace Indice.Formularios
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            FormLogin formLogin = new FormLogin();
             this.Hide();
-            formLogin.ShowDialog();
-            this.Show();
+            Program.Login.Show();
         }
 
         private void CambiarTab(TabPage tab)
@@ -127,7 +125,7 @@ namespace Indice.Formularios
 
         private void Img_Click(object sender, EventArgs e)
         {
-            FormPelicula formPelicula = new FormPelicula(pelicula1, pelicula1.Salas[0]);
+            FormPelicula formPelicula = new FormPelicula(this, pelicula1, pelicula1.Salas[0]);
             this.Hide();
             formPelicula.ShowDialog();
             this.Show();
@@ -135,7 +133,7 @@ namespace Indice.Formularios
 
         private void ImgMovie2_Click(object sender, EventArgs e)
         {
-            FormPelicula formPelicula = new FormPelicula(pelicula2, pelicula2.Salas[0]);
+            FormPelicula formPelicula = new FormPelicula(this, pelicula2, pelicula2.Salas[0]);
             this.Hide();
             formPelicula.ShowDialog();
             this.Show();
@@ -143,7 +141,7 @@ namespace Indice.Formularios
 
         private void ImgMovie3_Click(object sender, EventArgs e)
         {
-            FormPelicula formPelicula = new FormPelicula(pelicula3, pelicula3.Salas[0]);
+            FormPelicula formPelicula = new FormPelicula(this, pelicula3, pelicula3.Salas[0]);
             this.Hide();
             formPelicula.ShowDialog();
             this.Show();

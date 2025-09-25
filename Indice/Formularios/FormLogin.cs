@@ -72,10 +72,8 @@ namespace Indice.Formularios
             txtPassword.Text = "";
             if (acceso)
             {
-                FormInicio formInicio = new FormInicio();
+                Program.Inicio.Show();
                 this.Hide();
-                formInicio.ShowDialog();
-                this.Show();
             }
             else
             {

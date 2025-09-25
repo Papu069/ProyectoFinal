@@ -13,13 +13,15 @@ namespace Indice.Formularios
 {
     public partial class FormAsiento : Form
     {
+        private FormInicio _formInicio;
         private Pelicula _pelicula;
         private Sala _sala;
         private List<Asiento> _asientosSeleccionados = new List<Asiento>();
 
-        public FormAsiento(Pelicula pelicula, Sala sala)
+        public FormAsiento(FormInicio formInicio, Pelicula pelicula, Sala sala)
         {
             InitializeComponent();
+            _formInicio = formInicio;
             _pelicula = pelicula;
             _sala = sala;
         }
@@ -102,10 +104,9 @@ namespace Indice.Formularios
                 return;
             }
 
-            FormPago formPago = new FormPago(_pelicula, _sala, _asientosSeleccionados);
+            FormPago formPago = new FormPago(_formInicio, _pelicula, _sala, _asientosSeleccionados);
             this.Hide();
             formPago.ShowDialog();
-            this.Show();
 
             panelAsientos.Controls.Clear();
             GenerarAsientos();

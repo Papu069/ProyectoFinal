@@ -13,13 +13,15 @@ namespace Indice.Formularios
 {
     public partial class FormPago : Form
     {
+        private FormInicio _formInicio;
         private Pelicula _pelicula;
         private Sala _sala;
         private List<Asiento> _asientosSeleccionados;
 
-        public FormPago(Pelicula pelicula, Sala sala, List<Asiento> asientosSeleccionados)
+        public FormPago(FormInicio formInicio, Pelicula pelicula, Sala sala, List<Asiento> asientosSeleccionados)
         {
             InitializeComponent();
+            _formInicio = formInicio;
             _pelicula = pelicula;
             _sala = sala;
             _asientosSeleccionados = asientosSeleccionados;
@@ -52,10 +54,9 @@ namespace Indice.Formularios
             foreach (var asiento in _asientosSeleccionados)
                 asiento.Ocupado = true;
 
-            FormBoleto formBoleto = new FormBoleto(_pelicula, _sala, _asientosSeleccionados, usuario);
+            FormBoleto formBoleto = new FormBoleto(_formInicio, _pelicula, _sala, _asientosSeleccionados, usuario);
             this.Hide();
             formBoleto.ShowDialog();
-            this.Close();
         }
 
         private void rbtTarjeta_CheckedChanged(object sender, EventArgs e)

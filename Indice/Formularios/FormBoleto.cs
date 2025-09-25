@@ -13,14 +13,16 @@ namespace Indice.Formularios
 {
     public partial class FormBoleto : Form
     {
+        private FormInicio _formInicio;
         private Pelicula _pelicula;
         private Sala _sala;
         private List<Asiento> _asientosSeleccionados;
         private Usuario _usuario;
 
-        public FormBoleto(Pelicula pelicula, Sala sala, List<Asiento> asientosSeleccionados, Usuario usuario)
+        public FormBoleto(FormInicio formInicio, Pelicula pelicula, Sala sala, List<Asiento> asientosSeleccionados, Usuario usuario)
         {
             InitializeComponent();
+            _formInicio = formInicio;
             _pelicula = pelicula;
             _sala = sala;
             _asientosSeleccionados = asientosSeleccionados;
@@ -41,6 +43,7 @@ namespace Indice.Formularios
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            _formInicio.Show();
             this.Close();
         }
     }

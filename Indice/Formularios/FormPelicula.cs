@@ -13,11 +13,13 @@ namespace Indice.Formularios
 {
     public partial class FormPelicula : Form
     {
+        private FormInicio _formInicio;
         private Pelicula _pelicula;
         private Sala _sala;
-        public FormPelicula(Pelicula pelicula, Sala sala)
+        public FormPelicula(FormInicio formInicio, Pelicula pelicula, Sala sala)
         {
             InitializeComponent();
+            _formInicio = formInicio;
             _pelicula = pelicula;
             _sala = pelicula.Salas[0];
         }
@@ -38,10 +40,9 @@ namespace Indice.Formularios
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
-            FormAsiento formAsiento = new FormAsiento(_pelicula, _sala);
+            FormAsiento formAsiento = new FormAsiento(_formInicio, _pelicula, _sala);
             this.Hide();
             formAsiento.ShowDialog();
-            this.Show();
         }
     }
 }

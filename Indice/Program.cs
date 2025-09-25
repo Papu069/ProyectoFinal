@@ -13,16 +13,19 @@ namespace Indice
 {
     class Program
     {
-        [DllImport("kernel32.dll")] static extern IntPtr GetConsoleWindow();
-        [DllImport("user32.dll")] static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
-        const int SW_MINIMIZE = 6;
-
-        [STAThread]
+        public static FormLogin Login;
+        public static FormInicio Inicio;
         static void Main(string[] args) 
         {
-            ShowWindow(GetConsoleWindow(), SW_MINIMIZE);
+            List<Sala> _salas = new List<Sala>();
+            List<Asiento> _asientosGuardados = new List<Asiento>();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            Login = new FormLogin();
+            Inicio = new FormInicio();
+
             Application.Run(new FormLogin());
         }
     }
