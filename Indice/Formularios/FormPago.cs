@@ -31,7 +31,7 @@ namespace Indice.Formularios
             foreach (var asiento in _asientosSeleccionados)
                 total += asiento.Precio;
 
-            lblTotal.Text = $"Total a pagar: Bs. {total}";
+            lblTotal.Text = $"Total: Bs. {total}";
         }
         
         private void btnPagar_Click_1(object sender, EventArgs e)
@@ -70,6 +70,11 @@ namespace Indice.Formularios
                 rbtTarjeta.Checked = false;
                 rbtEfectivo.Checked = true;
             }
+        }
+
+        private void btnCancelarCompra_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
