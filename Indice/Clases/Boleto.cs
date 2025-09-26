@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Indice.Clases
 {
+    /// <summary>
+    /// Clase que representa un boleto de cine.
+    /// </summary>
     public class Boleto
     {
         public Pelicula Pelicula { get; set; }
@@ -13,6 +16,9 @@ namespace Indice.Clases
         public DateTime FechaDEPelicula { get; set; }
         public double Precio { get; set; }
 
+        /// <summary>
+        /// Constructor que inicializa un boleto con valores por defecto.
+        /// </summary>
         public Boleto()
         {
             this.Pelicula = new Pelicula();

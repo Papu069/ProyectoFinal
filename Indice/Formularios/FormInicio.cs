@@ -11,8 +11,14 @@ using System.Windows.Forms;
 
 namespace Indice.Formularios
 {
+    /// <summary>
+    /// Formulario principal de la aplicación de reservas de cine.
+    /// </summary>
     public partial class FormInicio: Form
     {
+        /// <summary>
+        /// Películas disponibles en el cine.
+        /// </summary>
         private Pelicula pelicula1;
         private Pelicula pelicula2;
         private Pelicula pelicula3;
@@ -45,7 +51,9 @@ namespace Indice.Formularios
         private Pelicula pelicula30;
 
 
-
+        /// <summary>
+        /// Constructor que inicializa el formulario y las películas.
+        /// </summary>
         public FormInicio()
         {
             InitializeComponent();
@@ -56,7 +64,9 @@ namespace Indice.Formularios
             {
                 NombreDEPelicula = "QUANTUMANIA",
                 Genero = "Ciencia ficción",
-                Descripcion = "Quantumania es una película de superhéroes...",
+                Descripcion = "Los superhéroes Scott y Cassie Lang, Hope van Dyne y sus padres, se " +
+                "encuentran accidentalmente atrapados en el reino cuántico y deben enfrentarse a un " +
+                "nuevo enemigo, Kang el Conquistador.",
                 FechaEstreno = new DateTime(2025, 09, 29),
                 HoraDEestreno = new TimeSpan(11, 30, 0)
 
@@ -68,7 +78,9 @@ namespace Indice.Formularios
             {
                 NombreDEPelicula = "65, AL BORDE DE LA EXTINCIÓN",
                 Genero = "Ficción histórica",
-                Descripcion = "El piloto Mills y la joven Koa sobreviven...",
+                Descripcion = "Tras sufrir un accidente y caer a un planeta desconocido, los supervivientes de una nave descubren que " +
+                "han llegado a la Tierra, pero hace" +
+                " 65 millones de años. Ahora, deben cruzar un territorio inhóspito, poblado de bestias prehistóricas, para salir.",
                 FechaEstreno = new DateTime(2025, 09, 30),
                  HoraDEestreno = new TimeSpan(12, 30, 0)
             };
@@ -78,7 +90,10 @@ namespace Indice.Formularios
             {
                 NombreDEPelicula = "LOS MUÉRTIMER",
                 Genero = "Misterio y comedia",
-                Descripcion = "Nico y Gabi descubren una trama de robos...",
+                Descripcion = "Nico es un joven de 15 años inteligente e introvertido que sufre acoso escolar por ser hijo de " +
+                "los dueños de la funeraria del pueblo. Todo cambia cuando llega de Gabrielle, una joven francesa rebelde que participa " +
+                "en un programa de intercambio. Juntos " +
+                "descubren un misterio en el cementerio: un cadáver oculto y unas joyas que desaparecen sin dejar rastro.",
                 FechaEstreno = new DateTime(2025, 09, 28),
                  HoraDEestreno = new TimeSpan(10, 30, 0)
             };
@@ -346,80 +361,140 @@ namespace Indice.Formularios
             };
             pelicula30.Salas.Add(new Sala { NumDESala = 30, Capacidad = 30 });
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de salir, vuelve al formulario de login.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Hide();
             Program.Login.Show();
         }
-
+        /// <summary>
+        /// Cambia la pestaña visible en el control TabControl.
+        /// </summary>
+        /// <param name="tab"></param>
         private void CambiarTab(TabPage tab)
         {
             tabGeneral.TabPages.Clear();
             tabGeneral.TabPages.Add(tab);
             tabGeneral.SelectedTab = tab;
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón derecho de la primera página, cambia a la segunda página.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnRight1_Click(object sender, EventArgs e)
         {
             CambiarTab(tabInicio2);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón izquierdo de la segunda página, vuelve a la primera página.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLeft1_Click(object sender, EventArgs e)
         {
             CambiarTab(tabInicio);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón izquierdo de la tercera página, vuelve a la segunda página.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLeft2_Click(object sender, EventArgs e)
         {
             CambiarTab(tabInicio2);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón derecho de la segunda página, cambia a la tercera página.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnRight2_Click(object sender, EventArgs e)
         {
             CambiarTab(tabInicio3);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de inicio, vuelve a la página de inicio.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnHome_Click(object sender, EventArgs e)
         {
             CambiarTab(tabInicio);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de lunes, cambia a la pestaña de lunes.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLunes_Click(object sender, EventArgs e)
         {
             CambiarTab(tabLunes);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de martes, cambia a la pestaña de martes.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnMartes_Click(object sender, EventArgs e)
         {
             CambiarTab(tabMartes);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de miércoles, cambia a la pestaña de miércoles.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnMiercoles_Click(object sender, EventArgs e)
         {
             CambiarTab(tabMiercoles);
         }
-
+        /// <summary>
+        ///  Evento que se dispara al hacer clic en el botón de jueves, cambia a la pestaña de jueves.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnJueves_Click(object sender, EventArgs e)
         {
             CambiarTab(tabJueves);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de viernes, cambia a la pestaña de viernes.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnViernes_Click(object sender, EventArgs e)
         {
             CambiarTab(tabViernes);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de sábado, cambia a la pestaña de sábado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSabado_Click(object sender, EventArgs e)
         {
             CambiarTab(tabSabado);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en el botón de domingo, cambia a la pestaña de domingo.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnDomingo_Click(object sender, EventArgs e)
         {
             CambiarTab(tabDomingo);
         }
-
+        /// <summary>
+        /// Evento que se dispara al hacer clic en la imagen de una película, abre el formulario 
+        /// de detalles de la película y en el resto de peliculas se mantiene el mismo evento.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Img_Click(object sender, EventArgs e)
         {
             FormPelicula formPelicula = new FormPelicula(this, pelicula1, pelicula1.Salas[0]);
@@ -427,7 +502,7 @@ namespace Indice.Formularios
             formPelicula.ShowDialog();
             this.Show();
         }
-
+        
         private void ImgMovie2_Click(object sender, EventArgs e)
         {
             FormPelicula formPelicula = new FormPelicula(this, pelicula2, pelicula2.Salas[0]);
@@ -491,7 +566,7 @@ namespace Indice.Formularios
             formPelicula.ShowDialog();
             this.Show();
         }
-
+       
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             FormPelicula formPelicula = new FormPelicula(this, pelicula11, pelicula11.Salas[0]);

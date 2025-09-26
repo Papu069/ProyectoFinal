@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Indice.Clases
 {
+    /// <summary>
+    /// Clase que representa un pago realizado para una reserva.
+    /// </summary>
     public class Pago
     {
         public Reserva Reserva { get; set; }
@@ -13,6 +16,9 @@ namespace Indice.Clases
         public DateTime FechaDEPago { get; set; }
         public string MetodoDEPago { get; set; }
 
+        /// <summary>
+        /// Constructor que inicializa un pago con valores por defecto.
+        /// </summary>
         public Pago()
         {
             this.Reserva = new Reserva();
@@ -21,14 +27,18 @@ namespace Indice.Clases
             this.MetodoDEPago = "Indefinido";
         }
     }
-
+    /// <summary>
+    /// Clase que representa una tarjeta de crédito o débito.
+    /// </summary>
     public class Tarjeta
     {
         public string NumeroDETarjeta { get; set; }
         public string NombreDuenio { get; set; }
         public string FechaDEVencimiento { get; set; }
         public string Clave { get; set; }
-
+        /// <summary>
+        /// Constructor que inicializa una tarjeta con valores por defecto.
+        /// </summary>
         public Tarjeta()
         {
             this.NumeroDETarjeta = "XXXX-XXXX-XXXX-XXXX";
