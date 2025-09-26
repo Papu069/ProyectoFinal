@@ -34,6 +34,7 @@ namespace Indice.Formularios
                 total += asiento.Precio;
 
             lblTotal.Text = $"Total: Bs. {total}";
+            grpTarjeta.Visible = rbtTarjeta.Checked;
         }
         
         private void btnPagar_Click_1(object sender, EventArgs e)
@@ -61,21 +62,17 @@ namespace Indice.Formularios
 
         private void rbtTarjeta_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbtTarjeta.Checked)
-            {
-                rbtTarjeta.Checked = true;
-                rbtEfectivo.Checked = false;
-            }
-            else
-            {
-                rbtTarjeta.Checked = false;
-                rbtEfectivo.Checked = true;
-            }
+            grpTarjeta.Visible = rbtTarjeta.Checked;
         }
 
         private void btnCancelarCompra_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void rbtEfectivo_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

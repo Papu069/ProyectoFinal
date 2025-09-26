@@ -181,5 +181,95 @@
   <ItemGroup>
     <None Include="Resources\Icono_Home.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PVZ_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FNAF2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banana_Mecanica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sexo_Película.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Devuelta_A_las_drogas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gato_Con_Botas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chainsaw_man.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your_Name.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interestelar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El_Caballero_Oscuro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spider_man_Miles_Morales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El_Padrino.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Los_Colegas_del_Barrio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Que_Paso_Ayer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tron_Ares.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Te_veo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_Ciegas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El_Hoyo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\La_Hermanastra_Fea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estacion_Zombi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sexo_Película1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El_Secreto_En_La_Montaña.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banana_Mecanica1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jurasik park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\random lunacy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clannad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star wars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la pelicula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huevos congelados.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

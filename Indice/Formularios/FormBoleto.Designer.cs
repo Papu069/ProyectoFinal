@@ -42,6 +42,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ptrInicio = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblhorafunciohn = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptrInicio)).BeginInit();
             this.SuspendLayout();
@@ -69,9 +71,9 @@
             // lblAsientos
             // 
             this.lblAsientos.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAsientos.Location = new System.Drawing.Point(89, 190);
+            this.lblAsientos.Location = new System.Drawing.Point(97, 223);
             this.lblAsientos.Name = "lblAsientos";
-            this.lblAsientos.Size = new System.Drawing.Size(242, 144);
+            this.lblAsientos.Size = new System.Drawing.Size(242, 80);
             this.lblAsientos.TabIndex = 2;
             this.lblAsientos.Text = "Asientos";
             // 
@@ -139,7 +141,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(18, 188);
+            this.label4.Location = new System.Drawing.Point(18, 222);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 16);
             this.label4.TabIndex = 9;
@@ -168,6 +170,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.groupBox1.Controls.Add(this.lblhorafunciohn);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.ptrInicio);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label4);
@@ -200,6 +204,26 @@
             this.ptrInicio.TabIndex = 14;
             this.ptrInicio.TabStop = false;
             this.ptrInicio.Click += new System.EventHandler(this.ptrInicio_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(18, 191);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "hora de la funcion:";
+            // 
+            // lblhorafunciohn
+            // 
+            this.lblhorafunciohn.AutoSize = true;
+            this.lblhorafunciohn.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhorafunciohn.Location = new System.Drawing.Point(162, 193);
+            this.lblhorafunciohn.Name = "lblhorafunciohn";
+            this.lblhorafunciohn.Size = new System.Drawing.Size(37, 14);
+            this.lblhorafunciohn.TabIndex = 16;
+            this.lblhorafunciohn.Text = "fecha";
             // 
             // FormBoleto
             // 
@@ -235,5 +259,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox ptrInicio;
+        private System.Windows.Forms.Label lblhorafunciohn;
+        private System.Windows.Forms.Label label7;
     }
 }

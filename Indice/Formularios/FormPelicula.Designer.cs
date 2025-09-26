@@ -34,13 +34,16 @@
             this.lblFechaEstreno = new System.Windows.Forms.Label();
             this.lblCostoEntrada = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnComprar = new System.Windows.Forms.Button();
-            this.ptrRetroceso2 = new System.Windows.Forms.PictureBox();
             this.lblGenero = new System.Windows.Forms.Label();
+            this.lblhorafuncion = new System.Windows.Forms.Label();
+            this.ptrRetroceso2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNamePelicula
@@ -60,9 +63,9 @@
             this.lblDescripcion.AutoEllipsis = true;
             this.lblDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescripcion.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblDescripcion.Location = new System.Drawing.Point(13, 188);
+            this.lblDescripcion.Location = new System.Drawing.Point(29, 182);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(469, 161);
+            this.lblDescripcion.Size = new System.Drawing.Size(469, 148);
             this.lblDescripcion.TabIndex = 1;
             this.lblDescripcion.Text = "Descripción";
             // 
@@ -98,16 +101,6 @@
             this.panel1.Size = new System.Drawing.Size(494, 93);
             this.panel1.TabIndex = 5;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Indice.Properties.Resources.Cine_icono;
-            this.pictureBox1.Location = new System.Drawing.Point(195, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(93, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnComprar
             // 
             this.btnComprar.BackColor = System.Drawing.Color.Gold;
@@ -122,6 +115,29 @@
             this.btnComprar.UseVisualStyleBackColor = false;
             this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             // 
+            // lblGenero
+            // 
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGenero.ForeColor = System.Drawing.SystemColors.Info;
+            this.lblGenero.Location = new System.Drawing.Point(29, 145);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(63, 20);
+            this.lblGenero.TabIndex = 9;
+            this.lblGenero.Text = "Género";
+            // 
+            // lblhorafuncion
+            // 
+            this.lblhorafuncion.AutoSize = true;
+            this.lblhorafuncion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhorafuncion.ForeColor = System.Drawing.SystemColors.Info;
+            this.lblhorafuncion.Location = new System.Drawing.Point(142, 357);
+            this.lblhorafuncion.Name = "lblhorafuncion";
+            this.lblhorafuncion.Size = new System.Drawing.Size(119, 20);
+            this.lblhorafuncion.TabIndex = 10;
+            this.lblhorafuncion.Text = "hora de funcion";
+            this.lblhorafuncion.Click += new System.EventHandler(this.lblhorafuncion_Click);
+            // 
             // ptrRetroceso2
             // 
             this.ptrRetroceso2.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -134,16 +150,37 @@
             this.ptrRetroceso2.TabStop = false;
             this.ptrRetroceso2.Click += new System.EventHandler(this.ptrRetroceso2_Click);
             // 
-            // lblGenero
+            // pictureBox1
             // 
-            this.lblGenero.AutoSize = true;
-            this.lblGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenero.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblGenero.Location = new System.Drawing.Point(29, 145);
-            this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Size = new System.Drawing.Size(63, 20);
-            this.lblGenero.TabIndex = 9;
-            this.lblGenero.Text = "Género";
+            this.pictureBox1.Image = global::Indice.Properties.Resources.Cine_icono;
+            this.pictureBox1.Location = new System.Drawing.Point(195, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(93, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Info;
+            this.label1.Location = new System.Drawing.Point(14, 357);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 20);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "hora de funcion";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Info;
+            this.label2.Location = new System.Drawing.Point(320, 391);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Fecha";
             // 
             // FormPelicula
             // 
@@ -151,6 +188,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowText;
             this.ClientSize = new System.Drawing.Size(494, 518);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblhorafuncion);
             this.Controls.Add(this.lblGenero);
             this.Controls.Add(this.ptrRetroceso2);
             this.Controls.Add(this.btnComprar);
@@ -166,8 +206,8 @@
             this.Text = "FormPelicula";
             this.Load += new System.EventHandler(this.FormPelicula_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,5 +224,8 @@
         private System.Windows.Forms.PictureBox ptrRetroceso2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblGenero;
+        private System.Windows.Forms.Label lblhorafuncion;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

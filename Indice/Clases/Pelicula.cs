@@ -12,6 +12,7 @@ namespace Indice.Clases
         public string Genero { get; set; }
         public string Descripcion { get; set; }
         public DateTime FechaEstreno { get; set; }
+        public TimeSpan HoraDEestreno { get; set; }
         public decimal CostoEntrada { get; set; } = 35.00m;
 
         public Pelicula()
@@ -20,6 +21,7 @@ namespace Indice.Clases
             this.Genero = "Desconocido";
             this.Descripcion = "Sin Descripcion";
             this.FechaEstreno = new DateTime();
+            this.HoraDEestreno = new TimeSpan();
         }
     }
 }

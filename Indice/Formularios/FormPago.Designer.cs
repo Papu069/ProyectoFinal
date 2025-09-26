@@ -37,11 +37,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.grpTarjeta = new System.Windows.Forms.GroupBox();
             this.btnCancelarCompra = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
+            this.grpTarjeta.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -92,6 +102,7 @@
             this.rbtEfectivo.TabStop = true;
             this.rbtEfectivo.Text = "Efectivo";
             this.rbtEfectivo.UseVisualStyleBackColor = true;
+            this.rbtEfectivo.CheckedChanged += new System.EventHandler(this.rbtEfectivo_CheckedChanged);
             // 
             // rbtTarjeta
             // 
@@ -130,6 +141,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.grpTarjeta);
             this.groupBox1.Controls.Add(this.btnCancelarCompra);
             this.groupBox1.Controls.Add(this.btnPagar);
             this.groupBox1.Controls.Add(this.groupBox4);
@@ -147,6 +159,23 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // grpTarjeta
+            // 
+            this.grpTarjeta.Controls.Add(this.dateTimePicker1);
+            this.grpTarjeta.Controls.Add(this.textBox4);
+            this.grpTarjeta.Controls.Add(this.label5);
+            this.grpTarjeta.Controls.Add(this.label4);
+            this.grpTarjeta.Controls.Add(this.textBox2);
+            this.grpTarjeta.Controls.Add(this.label2);
+            this.grpTarjeta.Controls.Add(this.textBox1);
+            this.grpTarjeta.Controls.Add(this.label1);
+            this.grpTarjeta.Location = new System.Drawing.Point(185, 118);
+            this.grpTarjeta.Name = "grpTarjeta";
+            this.grpTarjeta.Size = new System.Drawing.Size(267, 247);
+            this.grpTarjeta.TabIndex = 12;
+            this.grpTarjeta.TabStop = false;
+            this.grpTarjeta.Text = "groupBox5";
             // 
             // btnCancelarCompra
             // 
@@ -195,6 +224,70 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Nombre";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "numero de tarjeta";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(19, 52);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(199, 26);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(131, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "nombre del titular";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 133);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(146, 20);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "fecha de expiracion";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(19, 104);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(199, 26);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(25, 185);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 20);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "cvv";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(19, 208);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(199, 26);
+            this.textBox4.TabIndex = 7;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(19, 157);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker1.TabIndex = 13;
+            // 
             // FormPago
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -209,6 +302,8 @@
             this.Load += new System.EventHandler(this.FormPago_Load_1);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.grpTarjeta.ResumeLayout(false);
+            this.grpTarjeta.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -233,5 +328,14 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnCancelarCompra;
+        private System.Windows.Forms.GroupBox grpTarjeta;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

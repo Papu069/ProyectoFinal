@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="El_Caballero_Oscuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El_Caballero_Oscuro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Flecha_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flecha_left.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,46 +127,136 @@
   <data name="PeliculaTres" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PeliculaTres.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cine_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cine_icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PeliculaDos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PeliculaDos.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NuevoUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NuevoUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Retroceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Retroceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CineLentes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CineLentes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LentesCine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LentesCine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jurasik park" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jurasik park.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Flecha_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flecha_right.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="User_Enigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\User_Enigma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icono_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icono_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="El_Hoyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El_Hoyo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banana_Mecanica1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banana_Mecanica1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FNAF2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FNAF2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Flecha_Derecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Flecha_Derecha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MarcoDeCine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarcoDeCine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cine_icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cine_icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sexo_Película" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sexo_Película.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_Enigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_Enigma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sexo_Película1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sexo_Película1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PelculaUno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PelculaUno.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MarcoDeCine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MarcoDeCine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="A_Ciegas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_Ciegas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chainsaw_man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chainsaw_man.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Que_Paso_Ayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Que_Paso_Ayer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la pelicula" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\la pelicula.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="random lunacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\random lunacy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Retroceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Retroceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LentesCine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LentesCine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icono_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono_Home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banana_Mecanica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banana_Mecanica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Devuelta_A_las_drogas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Devuelta_A_las_drogas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PeliculaDos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PeliculaDos.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icono_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star wars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star wars.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gato_Con_Botas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gato_Con_Botas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Your_Name" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Your_Name.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tron_Ares" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tron_Ares.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Te_veo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Te_veo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clannad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clannad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interestelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interestelar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estacion_Zombi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estacion_Zombi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="La_Hermanastra_Fea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\La_Hermanastra_Fea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Los_Colegas_del_Barrio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Los_Colegas_del_Barrio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spider_man_Miles_Morales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spider_man_Miles_Morales.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="El_Padrino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El_Padrino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="El_Secreto_En_La_Montaña" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El_Secreto_En_La_Montaña.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CineLentes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CineLentes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PVZ_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PVZ_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FondoLuces" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoLuces.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icono_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icono_Home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NuevoUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NuevoUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="huevos congelados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\huevos congelados.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

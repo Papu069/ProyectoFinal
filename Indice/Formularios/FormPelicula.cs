@@ -35,6 +35,7 @@ namespace Indice.Formularios
             lblGenero.Text = _pelicula.Genero;
             lblDescripcion.Text = _pelicula.Descripcion;
             lblFechaEstreno.Text = _pelicula.FechaEstreno.ToShortDateString();
+            lblhorafuncion.Text = _pelicula.HoraDEestreno.ToString();
             lblCostoEntrada.Text = $"P/U: Bs. {_pelicula.CostoEntrada}";
         }
 
@@ -43,6 +44,11 @@ namespace Indice.Formularios
             FormAsiento formAsiento = new FormAsiento(_formInicio, _pelicula, _sala);
             this.Hide();
             formAsiento.ShowDialog();
+        }
+
+        private void lblhorafuncion_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

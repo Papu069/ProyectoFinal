@@ -37,6 +37,7 @@ namespace Indice.Formularios
             lblPelicula.Text = $"{_pelicula.NombreDEPelicula}";
             lblSala.Text = $"{_sala.NumDESala}";
             lblFecha.Text = $"{DateTime.Now}";
+            lblhorafunciohn.Text = $"{_pelicula.HoraDEestreno}";
             lblAsientos.Text = "Asientos: " + string.Join(", ", _asientosSeleccionados.Select(a => $"{a.Fila}-{a.Numero}"));
             lblTotal.Text = $"Total Pagado: Bs. {total}";
         }
