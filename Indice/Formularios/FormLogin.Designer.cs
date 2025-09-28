@@ -99,7 +99,7 @@
             this.txtUsuario.Location = new System.Drawing.Point(261, 112);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(344, 32);
-            this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.TabIndex = 1;
             this.txtUsuario.Text = "USUARIO";
             this.txtUsuario.Enter += new System.EventHandler(this.txtUsuario_Enter);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
@@ -113,7 +113,7 @@
             this.txtPassword.Location = new System.Drawing.Point(261, 171);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(344, 32);
-            this.txtPassword.TabIndex = 3;
+            this.txtPassword.TabIndex = 2;
             this.txtPassword.Text = "CONTRASEÑA";
             this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
             this.txtPassword.Leave += new System.EventHandler(this.txtPassword_Leave);
@@ -139,7 +139,7 @@
             this.btnIngrearIndice.Location = new System.Drawing.Point(261, 228);
             this.btnIngrearIndice.Name = "btnIngrearIndice";
             this.btnIngrearIndice.Size = new System.Drawing.Size(344, 46);
-            this.btnIngrearIndice.TabIndex = 4;
+            this.btnIngrearIndice.TabIndex = 3;
             this.btnIngrearIndice.Text = "INGRESAR";
             this.btnIngrearIndice.UseVisualStyleBackColor = false;
             this.btnIngrearIndice.Click += new System.EventHandler(this.btnIngrearIndice_Click);
@@ -151,7 +151,7 @@
             this.linkHelp.Location = new System.Drawing.Point(369, 302);
             this.linkHelp.Name = "linkHelp";
             this.linkHelp.Size = new System.Drawing.Size(133, 13);
-            this.linkHelp.TabIndex = 1;
+            this.linkHelp.TabIndex = 4;
             this.linkHelp.TabStop = true;
             this.linkHelp.Text = "He olvidado mi contraseña";
             this.linkHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkHelp_LinkClicked);

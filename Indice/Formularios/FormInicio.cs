@@ -72,7 +72,7 @@ namespace Indice.Formularios
 
 
             };
-            pelicula1.Salas.Add(new Sala { NumDESala = 1, Capacidad = 30 });
+            pelicula1.Salas.Add(new Sala { NumDESala = 1, Capacidad = 63 });
 
             pelicula2 = new Pelicula
             {
@@ -84,7 +84,7 @@ namespace Indice.Formularios
                 FechaEstreno = new DateTime(2025, 09, 30),
                  HoraDEestreno = new TimeSpan(12, 30, 0)
             };
-            pelicula2.Salas.Add(new Sala { NumDESala = 2, Capacidad = 30 });
+            pelicula2.Salas.Add(new Sala { NumDESala = 2, Capacidad = 63 });
 
             pelicula3 = new Pelicula
             {
@@ -97,21 +97,17 @@ namespace Indice.Formularios
                 FechaEstreno = new DateTime(2025, 09, 28),
                  HoraDEestreno = new TimeSpan(10, 30, 0)
             };
-            pelicula3.Salas.Add(new Sala { NumDESala = 3, Capacidad = 30 });
+            pelicula3.Salas.Add(new Sala { NumDESala = 3, Capacidad = 63 });
             pelicula4 = new Pelicula
             {
                 NombreDEPelicula="PLANTAS VRS ZOMBIS LA PELICULA",
                 Genero= "Animación y comedia",
                 Descripcion = "En un tranquilo vecindario, la paz de los jardines se ve amenazada cuando un ejército de zombis " +
                 "comienza a invadir la ciudad bajo el mando del enigmático Dr. Zomboss",
-
-
                 FechaEstreno = new DateTime(2025, 10, 01),
                 HoraDEestreno = new TimeSpan(15, 30, 0)
-
-
             };
-            pelicula4.Salas.Add(new Sala { NumDESala=4, Capacidad = 30 });
+            pelicula4.Salas.Add(new Sala { NumDESala=4, Capacidad = 63 });
             pelicula5 = new Pelicula
             {
                 NombreDEPelicula = "Five Nights at Freddy’s: La película:",
@@ -124,46 +120,46 @@ namespace Indice.Formularios
 
 
             };
-            pelicula5.Salas.Add(new Sala { NumDESala = 5, Capacidad = 30 });
+            pelicula5.Salas.Add(new Sala { NumDESala = 5, Capacidad = 63 });
             pelicula6 = new Pelicula
             {
-                NombreDEPelicula="your name",
+                NombreDEPelicula="Your name",
                 Genero= "Animación y romance",
                 Descripcion = "Mitsuha es una chica de un pequeño pueblo que sueña con vivir en la bulliciosa ciudad de Tokio. " ,
                 FechaEstreno = new DateTime(2025, 10, 01),
                 HoraDEestreno = new TimeSpan(19, 30, 0)
 
             };
-            pelicula6.Salas.Add(new Sala { NumDESala = 6, Capacidad = 30 });
+            pelicula6.Salas.Add(new Sala { NumDESala = 6, Capacidad = 63 });
             pelicula7 = new Pelicula
             {
-                NombreDEPelicula= "interstellar",
+                NombreDEPelicula= "Interstellar",
                 Genero = "Ciencia ficción y drama",
                 Descripcion = "En un futuro cercano, la Tierra enfrenta una crisis ambiental que amenaza la supervivencia de la humanidad. " ,
                 FechaEstreno = new DateTime(2025, 10, 05),
                 HoraDEestreno = new TimeSpan(20, 30, 0)
 
             };
-            pelicula7.Salas.Add(new Sala { NumDESala = 7, Capacidad = 30 });
+            pelicula7.Salas.Add(new Sala { NumDESala = 7, Capacidad = 63 });
             pelicula8 = new Pelicula
             {
-                NombreDEPelicula="el caballero de la noche",
+                NombreDEPelicula="El caballero de la noche",
                 Genero = "Acción y crimen",
                 Descripcion = "Gotham City está sumida en el caos mientras el Joker, un criminal psicópata, desata una ola de terror en la ciudad. ",
                 FechaEstreno = new DateTime(2025, 10, 03),
                 HoraDEestreno = new TimeSpan(21, 30, 0)
             };
-            pelicula8.Salas.Add(new Sala { NumDESala = 8, Capacidad = 30 });
+            pelicula8.Salas.Add(new Sala { NumDESala = 8, Capacidad = 63 });
             pelicula9 = new Pelicula
             {
-                NombreDEPelicula="gato con botas",
+                NombreDEPelicula="Gato con botas",
                 Genero = "Animación y aventura",
                 Descripcion = "En esta precuela de la saga de Shrek, el Gato con Botas, un astuto y valiente felino, " +
                 "se embarca en una aventura épica para encontrar el legendario Huevo de Oro.",
                 FechaEstreno = new DateTime(2025, 09, 29),
                 HoraDEestreno = new TimeSpan(14, 30, 0)
             };
-            pelicula9.Salas.Add(new Sala { NumDESala = 9, Capacidad = 30 });
+            pelicula9.Salas.Add(new Sala { NumDESala = 9, Capacidad = 63 });
             pelicula10 = new Pelicula
             {
                 NombreDEPelicula= "Chainsaw Man",
@@ -174,35 +170,35 @@ namespace Indice.Formularios
                 HoraDEestreno = new TimeSpan(13, 30, 0)
 
             };
-            pelicula10.Salas.Add(new Sala { NumDESala = 10, Capacidad = 30 });
+            pelicula10.Salas.Add(new Sala { NumDESala = 10, Capacidad = 63 });
             pelicula11 = new Pelicula
             {
-                NombreDEPelicula = "miles morales",
+                NombreDEPelicula = "Miles morales",
                 Genero = "Animación y superhéroes",
                 Descripcion = "En Brooklyn, el adolescente Miles Morales descubre que ha heredado poderes " +
                 "similares a los de Spider-Man. Mientras intenta equilibrar su vida como estudiante y héroe",
                 FechaEstreno = new DateTime(2025, 10, 01),
                 HoraDEestreno = new TimeSpan(16, 30, 0)
             };
-            pelicula11.Salas.Add(new Sala { NumDESala = 11, Capacidad = 30 });
+            pelicula11.Salas.Add(new Sala { NumDESala = 1, Capacidad = 63 });
             pelicula12 = new Pelicula
             {
-                NombreDEPelicula="el padrino",
+                NombreDEPelicula="El padrino",
                 Genero = "Crimen y drama",
                 Descripcion = "La historia épica de la familia Corleone, una poderosa dinastía mafiosa en Nueva York. ",
                 FechaEstreno = new DateTime(2025, 10, 02),
                 HoraDEestreno = new TimeSpan(17, 30, 0)
             };
-            pelicula12.Salas.Add(new Sala { NumDESala = 12, Capacidad = 30 });
+            pelicula12.Salas.Add(new Sala { NumDESala = 2, Capacidad = 63 });
             pelicula13 = new Pelicula
             {
-                NombreDEPelicula = "los colegas del barrio",
+                NombreDEPelicula = "Los colegas del barrio",
                 Genero = "Comedia y acción",
                 Descripcion = "Un grupo de amigos de la infancia se reencuentran en su barrio natal después de varios años. ",
                 FechaEstreno = new DateTime(2025, 09, 30),
                 HoraDEestreno = new TimeSpan(12, 34, 0)
             };
-            pelicula13.Salas.Add(new Sala { NumDESala = 13, Capacidad = 30 });
+            pelicula13.Salas.Add(new Sala { NumDESala = 3, Capacidad = 63 });
             pelicula14 = new Pelicula
             {
                 NombreDEPelicula = "2012",
@@ -211,43 +207,43 @@ namespace Indice.Formularios
                 FechaEstreno = new DateTime(2025, 09, 30),
                 HoraDEestreno = new TimeSpan(2, 30, 0)
             };
-            pelicula14.Salas.Add(new Sala { NumDESala = 14, Capacidad = 30 });
+            pelicula14.Salas.Add(new Sala { NumDESala = 4, Capacidad = 63 });
             pelicula15 = new Pelicula
             {
-                NombreDEPelicula = "que paso ayer 3",
+                NombreDEPelicula = "Que paso ayer 3",
                 Genero = "Comedia",
                 Descripcion = "Después de una noche de fiesta en Las Vegas, un grupo de amigos se despiertan sin recordar nada de lo ocurrido. ",
                 FechaEstreno = new DateTime(2025, 10, 01),
                 HoraDEestreno = new TimeSpan(3, 30, 0)
             };
-            pelicula15.Salas.Add(new Sala { NumDESala = 15, Capacidad = 30 });
+            pelicula15.Salas.Add(new Sala { NumDESala = 5, Capacidad = 63 });
             pelicula16 = new Pelicula
             {
-                NombreDEPelicula = "tron ares",
+                NombreDEPelicula = "Tron ares",
                 Genero = "Ciencia ficción y aventura",
                 Descripcion = "Sam Flynn, el hijo del legendario programador Kevin Flynn, se encuentra atrapado en el mundo digital de Tron. ",
                 FechaEstreno = new DateTime(2025, 10, 04),
                 HoraDEestreno = new TimeSpan(4, 30, 0)
             };
-            pelicula16.Salas.Add(new Sala { NumDESala = 16, Capacidad = 30 });
+            pelicula16.Salas.Add(new Sala { NumDESala = 6, Capacidad = 63 });
             pelicula17 = new Pelicula
             {
-                NombreDEPelicula = "te veo",
+                NombreDEPelicula = "Te veo",
                 Genero = "Suspenso y misterio",
                 Descripcion = "Una joven comienza a recibir mensajes inquietantes de alguien que afirma conocer todos sus secretos más oscuros. ",
                 FechaEstreno = new DateTime(2025, 10, 01),
                 HoraDEestreno = new TimeSpan(5, 30, 0)
             };
-            pelicula17.Salas.Add(new Sala { NumDESala = 17, Capacidad = 30 });
+            pelicula17.Salas.Add(new Sala { NumDESala = 7, Capacidad = 63 });
             pelicula18 = new Pelicula
             {
-                NombreDEPelicula = "a ciegas",
+                NombreDEPelicula = "A ciegas",
                 Genero = "Suspenso y drama",
                 Descripcion = "En un mundo postapocalíptico, una mujer ciega lucha por sobrevivir mientras es perseguida por un grupo de personas que buscan aprovecharse de su vulnerabilidad. ",
                 FechaEstreno = new DateTime(2025, 10,03 ),
                 HoraDEestreno = new TimeSpan(6, 30, 0)
             };
-            pelicula18.Salas.Add(new Sala { NumDESala = 18, Capacidad = 30 });
+            pelicula18.Salas.Add(new Sala { NumDESala = 8, Capacidad = 63 });
             pelicula19 = new Pelicula
             {
                 NombreDEPelicula = "EL HOYO",
@@ -256,16 +252,16 @@ namespace Indice.Formularios
                 FechaEstreno = new DateTime(2025, 10, 05),
                 HoraDEestreno = new TimeSpan(7, 30, 0)
             };
-            pelicula19.Salas.Add(new Sala { NumDESala = 19, Capacidad = 30 });
+            pelicula19.Salas.Add(new Sala { NumDESala = 9, Capacidad = 63 });
             pelicula20 = new Pelicula
             {
-                NombreDEPelicula = "la hermana fea",
+                NombreDEPelicula = "La hermana fea",
                 Genero = "Comedia y romance",
                 Descripcion = "Una joven considerada poco atractiva por su familia y la sociedad decide cambiar su apariencia para encontrar el amor verdadero. ",
                 FechaEstreno = new DateTime(2025, 10, 15),
                 HoraDEestreno = new TimeSpan(1, 30, 0)
             };
-            pelicula20.Salas.Add(new Sala { NumDESala = 29, Capacidad = 30 });
+            pelicula20.Salas.Add(new Sala { NumDESala = 10, Capacidad = 63 });
             pelicula21 = new Pelicula
             {
                 NombreDEPelicula = "Estacion zombi",
@@ -276,25 +272,25 @@ namespace Indice.Formularios
 
 
             };
-            pelicula21.Salas.Add(new Sala { NumDESala = 21, Capacidad = 30 });
+            pelicula21.Salas.Add(new Sala { NumDESala = 1, Capacidad = 63 });
             pelicula22 = new Pelicula
             {
-                NombreDEPelicula = "sexo la pelicula",
+                NombreDEPelicula = "Sexo la pelicula",
                 Genero = "Comedia y romance",
                 Descripcion = "Una comedia romántica que explora las aventuras y desventuras de un grupo de amigos en su búsqueda del amor y la felicidad. ",
                 FechaEstreno = new DateTime(2025, 10, 04),
                 HoraDEestreno = new TimeSpan(2, 50, 0)
             };
-            pelicula22.Salas.Add(new Sala { NumDESala = 22, Capacidad = 30 });
+            pelicula22.Salas.Add(new Sala { NumDESala = 2, Capacidad = 63 });
             pelicula23 = new Pelicula
             {
-                NombreDEPelicula = "secreto en la montaña",
+                NombreDEPelicula = "Secreto en la montaña",
                 Genero = "Drama y romance",
                 Descripcion = "En un pequeño pueblo de montaña, dos vaqueros desarrollan una intensa relación amorosa mientras enfrentan los prejuicios de la sociedad. ",
                 FechaEstreno = new DateTime(2025, 10, 02),
                 HoraDEestreno = new TimeSpan(18, 50, 0)
             };
-            pelicula23.Salas.Add(new Sala { NumDESala = 23, Capacidad = 30 });
+            pelicula23.Salas.Add(new Sala { NumDESala = 3, Capacidad = 63 });
             pelicula24 = new Pelicula
             {
                 NombreDEPelicula="Banana mecanica",
@@ -303,16 +299,16 @@ namespace Indice.Formularios
                 FechaEstreno = new DateTime(2025, 10, 30),
                 HoraDEestreno = new TimeSpan(19, 50, 0)
             };
-            pelicula24.Salas.Add(new Sala { NumDESala = 24, Capacidad = 30 });
+            pelicula24.Salas.Add(new Sala { NumDESala = 4, Capacidad = 63 });
             pelicula25 = new Pelicula
             {
-                NombreDEPelicula = "el remanenete",
+                NombreDEPelicula = "El remanenete",
                 Genero = "Terror y suspenso",
                 Descripcion = "Un grupo de personas queda atrapado en un supermercado durante un apocalipsis zombi, y deben luchar por sobrevivir mientras enfrentan amenazas tanto externas como internas. ",
                 FechaEstreno = new DateTime(2025, 10, 04),
                 HoraDEestreno = new TimeSpan(20, 50, 0)
             };
-            pelicula25.Salas.Add(new Sala { NumDESala = 25, Capacidad = 30 });
+            pelicula25.Salas.Add(new Sala { NumDESala = 5, Capacidad = 63 });
             pelicula26 = new Pelicula
             {
                 NombreDEPelicula = "Random lunacy",
@@ -322,44 +318,44 @@ namespace Indice.Formularios
                 HoraDEestreno = new TimeSpan(21, 50, 0)
 
             };
-            pelicula26.Salas.Add(new Sala { NumDESala = 26, Capacidad = 30 });
+            pelicula26.Salas.Add(new Sala { NumDESala = 6, Capacidad = 63 });
             pelicula27 = new Pelicula
             {
-                NombreDEPelicula = "clannad",
+                NombreDEPelicula = "Clannad",
                 Genero = "Animación y drama",
                 Descripcion = "Tomoya Okazaki, un estudiante de secundaria rebelde, conoce a una chica llamada Nagisa Furukawa, quien lo introduce en un mundo de emociones y relaciones profundas. ",
                 FechaEstreno = new DateTime(2025, 10, 03),
                 HoraDEestreno = new TimeSpan(23, 59, 0)
             };
-            pelicula27.Salas.Add(new Sala { NumDESala = 27, Capacidad = 30 });
+            pelicula27.Salas.Add(new Sala { NumDESala = 7, Capacidad = 63 });
             pelicula28 = new Pelicula
             {
-                NombreDEPelicula = "star wars",
+                NombreDEPelicula = "Star wars",
                 Genero = "Ciencia ficción y aventura",
                 Descripcion = "En una galaxia muy, muy lejana, la lucha entre el bien y el mal se intensifica cuando un joven granjero llamado Luke Skywalker descubre su destino como Jedi y se une a la Rebelión para enfrentarse al malvado Imperio Galáctico. ",
                 FechaEstreno = new DateTime(2025, 10, 03),
                 HoraDEestreno = new TimeSpan(22, 10, 0)
             };
-            pelicula28.Salas.Add(new Sala { NumDESala = 28, Capacidad = 30 });
+            pelicula28.Salas.Add(new Sala { NumDESala = 8, Capacidad = 63 });
             pelicula29 = new Pelicula
             {
-                NombreDEPelicula = "sexo la pelicula2",
+                NombreDEPelicula = "Sexo la pelicula 2",
                 Genero = "Comedia y romance",
                 Descripcion = "Una comedia romántica que explora las aventuras y desventuras de un grupo de amigos en su búsqueda del amor y la felicidad. ",
                 FechaEstreno = new DateTime(2025, 10, 02),
                 HoraDEestreno = new TimeSpan(20, 10, 0)
 
             };
-            pelicula29.Salas.Add(new Sala { NumDESala = 29, Capacidad = 30 });
+            pelicula29.Salas.Add(new Sala { NumDESala = 9, Capacidad = 63 });
             pelicula30 = new Pelicula
             {
-                NombreDEPelicula = "huevos congelados",
+                NombreDEPelicula = "Huevos congelados",
                 Genero = "Comedia",
                 Descripcion = "En esta divertida aventura animada, Toto y sus amigos huevos se enfrentan a un nuevo y frío desafío cuando un villano amenaza con congelar el futuro del gallinero",
                 FechaEstreno = new DateTime(2025, 10, 25),
                 HoraDEestreno = new TimeSpan(19, 10, 0)
             };
-            pelicula30.Salas.Add(new Sala { NumDESala = 30, Capacidad = 30 });
+            pelicula30.Salas.Add(new Sala { NumDESala = 10, Capacidad = 63 });
         }
         /// <summary>
         /// Evento que se dispara al hacer clic en el botón de salir, vuelve al formulario de login.
@@ -746,8 +742,6 @@ namespace Indice.Formularios
             this.Hide();
             formPelicula.ShowDialog();
             this.Show();
-
-            //pictureBox1.BorderStyle = BorderStyle.FixedSingle;
         }
 
         private void pictureBox23_Click(object sender, EventArgs e)

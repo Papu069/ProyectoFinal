@@ -34,16 +34,16 @@
             this.lblFechaEstreno = new System.Windows.Forms.Label();
             this.lblCostoEntrada = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnComprar = new System.Windows.Forms.Button();
             this.lblGenero = new System.Windows.Forms.Label();
             this.lblhorafuncion = new System.Windows.Forms.Label();
             this.ptrRetroceso2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNamePelicula
@@ -65,7 +65,7 @@
             this.lblDescripcion.ForeColor = System.Drawing.SystemColors.Info;
             this.lblDescripcion.Location = new System.Drawing.Point(29, 182);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(469, 148);
+            this.lblDescripcion.Size = new System.Drawing.Size(442, 148);
             this.lblDescripcion.TabIndex = 1;
             this.lblDescripcion.Text = "Descripción";
             // 
@@ -87,9 +87,9 @@
             this.lblCostoEntrada.ForeColor = System.Drawing.SystemColors.Info;
             this.lblCostoEntrada.Location = new System.Drawing.Point(249, 453);
             this.lblCostoEntrada.Name = "lblCostoEntrada";
-            this.lblCostoEntrada.Size = new System.Drawing.Size(51, 20);
+            this.lblCostoEntrada.Size = new System.Drawing.Size(59, 20);
             this.lblCostoEntrada.TabIndex = 3;
-            this.lblCostoEntrada.Text = "Coste";
+            this.lblCostoEntrada.Text = "Coste: ";
             // 
             // panel1
             // 
@@ -101,6 +101,16 @@
             this.panel1.Size = new System.Drawing.Size(494, 93);
             this.panel1.TabIndex = 5;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Indice.Properties.Resources.Cine_icono;
+            this.pictureBox1.Location = new System.Drawing.Point(195, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(93, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnComprar
             // 
             this.btnComprar.BackColor = System.Drawing.Color.Gold;
@@ -110,7 +120,7 @@
             this.btnComprar.Location = new System.Drawing.Point(373, 435);
             this.btnComprar.Name = "btnComprar";
             this.btnComprar.Size = new System.Drawing.Size(98, 56);
-            this.btnComprar.TabIndex = 6;
+            this.btnComprar.TabIndex = 1;
             this.btnComprar.Text = "Comprar entrada";
             this.btnComprar.UseVisualStyleBackColor = false;
             this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
@@ -136,7 +146,6 @@
             this.lblhorafuncion.Size = new System.Drawing.Size(119, 20);
             this.lblhorafuncion.TabIndex = 10;
             this.lblhorafuncion.Text = "hora de funcion";
-            this.lblhorafuncion.Click += new System.EventHandler(this.lblhorafuncion_Click);
             // 
             // ptrRetroceso2
             // 
@@ -150,16 +159,6 @@
             this.ptrRetroceso2.TabStop = false;
             this.ptrRetroceso2.Click += new System.EventHandler(this.ptrRetroceso2_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Indice.Properties.Resources.Cine_icono;
-            this.pictureBox1.Location = new System.Drawing.Point(195, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(93, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -167,9 +166,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Info;
             this.label1.Location = new System.Drawing.Point(14, 357);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 20);
+            this.label1.Size = new System.Drawing.Size(127, 20);
             this.label1.TabIndex = 11;
-            this.label1.Text = "hora de funcion";
+            this.label1.Text = "hora de funcion: ";
             // 
             // label2
             // 
@@ -178,9 +177,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Info;
             this.label2.Location = new System.Drawing.Point(320, 391);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.Size = new System.Drawing.Size(62, 20);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Fecha";
+            this.label2.Text = "Fecha: ";
             // 
             // FormPelicula
             // 
@@ -206,8 +205,8 @@
             this.Text = "FormPelicula";
             this.Load += new System.EventHandler(this.FormPelicula_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptrRetroceso2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -64,10 +64,5 @@ namespace Indice.Formularios
             this.Hide();
             formAsiento.ShowDialog();
         }
-
-        private void lblhorafuncion_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

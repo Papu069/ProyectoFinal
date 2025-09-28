@@ -37,7 +37,7 @@ namespace Indice
             Inicio = new FormInicio();
 
             // Ejecuta el formulario de login como ventana principal
-            Application.Run(new FormLogin());
+            Application.Run(Login);
         }
     }
 }

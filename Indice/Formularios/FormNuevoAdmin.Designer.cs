@@ -71,7 +71,7 @@
             this.dtpFechaNacimiento.Location = new System.Drawing.Point(35, 258);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             this.dtpFechaNacimiento.Size = new System.Drawing.Size(257, 23);
-            this.dtpFechaNacimiento.TabIndex = 9;
+            this.dtpFechaNacimiento.TabIndex = 4;
             // 
             // label4
             // 
@@ -104,7 +104,7 @@
             this.btnConfirmarUsuario.Location = new System.Drawing.Point(131, 332);
             this.btnConfirmarUsuario.Name = "btnConfirmarUsuario";
             this.btnConfirmarUsuario.Size = new System.Drawing.Size(161, 38);
-            this.btnConfirmarUsuario.TabIndex = 6;
+            this.btnConfirmarUsuario.TabIndex = 5;
             this.btnConfirmarUsuario.Text = "Confirmar";
             this.btnConfirmarUsuario.UseVisualStyleBackColor = false;
             this.btnConfirmarUsuario.Click += new System.EventHandler(this.btnConfirmarUsuario_Click);
@@ -117,7 +117,7 @@
             this.txtConfPass.Location = new System.Drawing.Point(35, 186);
             this.txtConfPass.Name = "txtConfPass";
             this.txtConfPass.Size = new System.Drawing.Size(257, 26);
-            this.txtConfPass.TabIndex = 5;
+            this.txtConfPass.TabIndex = 3;
             this.txtConfPass.Enter += new System.EventHandler(this.txtConfPass_Enter);
             // 
             // label3
@@ -139,7 +139,7 @@
             this.txtPass.Location = new System.Drawing.Point(35, 111);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(257, 26);
-            this.txtPass.TabIndex = 3;
+            this.txtPass.TabIndex = 2;
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
             // 
             // label2
